@@ -111,7 +111,7 @@ parser.add_argument("-d", "--duration", type=int, help="Duration (in seconds) of
 parser.add_argument("-f", "--filename", type=str, help="Name of the log file to output data to", required=True)
 args = parser.parse_args()
 
-FH.open_file(file_name=args.filename+'.txt')
+FH.open_file(file_name=args.filename) # +'.txt')
 
 ports = DP.discover_boards()
 
