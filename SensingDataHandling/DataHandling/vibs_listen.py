@@ -83,7 +83,7 @@ def decode_acc_values(data_array):
         # print(np.around(np.array(float_values),2))
         # print("(t = {} ms)".format(time_stamp/1000))
         
-        check_data_flow(time_stamp, sampling_frequency, accID, axisID)
+        # check_data_flow(time_stamp, sampling_frequency, accID, axisID)
 
         FH.file_write("<DATA> (t={}, a={}, d={}, f={}, p={}) : ".format(time_stamp/1000, accID, AXES[axisID], sampling_frequency, nb_samples_taken))
         FH.file_write(np.array2string(data_to_write, separator=',', max_line_width=1000000))
