@@ -1,0 +1,89 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/include",
+                "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/src",
+                "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/lib/SAMD_TimerInterrupt/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                "/Users/matthieu/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/matthieu/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/.pio/libdeps/nano_33_iot/SAMD_TimerInterrupt/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/HID",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/include",
+                    "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/src",
+                    "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/lib/SAMD_TimerInterrupt/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                    "/Users/matthieu/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/matthieu/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/cores/arduino",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                    "/Users/matthieu/Documents/PlatformIO/Projects/SensingComb/.pio/libdeps/nano_33_iot/SAMD_TimerInterrupt/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/HID",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                    "/Users/matthieu/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60105",
+                "ARDUINO_SAMD_NANO_33_IOT",
+                "CRYSTALLESS",
+                "__SAMD21G18A__",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x8057",
+                "USB_PRODUCT=\"Arduino NANO 33 IoT\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/matthieu/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
