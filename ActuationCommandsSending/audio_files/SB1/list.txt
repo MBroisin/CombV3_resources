@@ -1,2 +1,3 @@
-0 : chirp freq 100-1600, 0.33, 1s VS nothing
-0 : chirp freq 100-1600, 0.33, 1s + 800hz, 0.33, 1s VS nothing
+Ch1 same as Ch2
+
+00 : staying alive, max amplitude 0.30
