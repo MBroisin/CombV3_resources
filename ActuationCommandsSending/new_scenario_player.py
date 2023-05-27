@@ -25,6 +25,7 @@ import logging
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--device_path', type=str, default=None, help='path of comb controller, leave unset for autolookup')
+parser.add_argument('--file', type=str, required=True, help='required, filename for output file')
 parser.add_argument('-sce', "--scenario_file", type=str, required=True, help="Path to scenario file to follow for sending commands")
 parser.add_argument('-old', "--old_scenario", type=bool, required=False, default=None, help="Use the old version (numbered) of the scenario files (newer version with lists)")
 args = parser.parse_args()
@@ -267,7 +268,7 @@ def cmd_wait_handler(delay):
 
 # log initialization
 strtime = dt.datetime.now().strftime("%Y%m%dT%H%M%S")
-log_fname = './logs/'+strtime+'_actuation.log'
+log_fname = args.file + '.log'
 format = "%(asctime)s: %(message)s"
 logging.basicConfig(filename=log_fname, format=format, level=logging.INFO,
                         datefmt="%Y%m%dT%H%M%S")
